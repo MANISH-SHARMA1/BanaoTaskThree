@@ -1,0 +1,75 @@
+.user-page {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  margin-inline: 20px;
+  gap: 20px;
+}
+
+.spinner-container{
+   margin-top: 45vh;
+}
+
+.left-part {
+  flex: 1;
+}
+
+.user-card {
+  height: 90vh;
+  overflow: scroll;
+}
+
+.user-card::-webkit-scrollbar {
+  display: none;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.user-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.right-part {
+  flex: 1;
+}
+
+.img-container {
+  text-align: center;
+}
+
+.user-img {
+  width: 200px;
+  height: 250px;
+  border-radius: 2px;
+  border: 1px solid black;
+}
+
+.info-container {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+#span {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.info-error {
+  color: red;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 40vh;
+}
